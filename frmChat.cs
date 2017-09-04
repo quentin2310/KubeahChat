@@ -2,7 +2,7 @@
 //  Kubeah ! Open Source Project
 //  
 //  Kubeah Chat
-//  Version 1.4.1
+//  Version 1.4.1 Final
 //--------------------------------------------------------------------
 using System;
 using System.Collections.Generic;
@@ -337,19 +337,14 @@ namespace ChatLocalClient
 
         private void aProposToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            NewMethod();
-        }
-
-        private static void NewMethod()
-        {
-            MessageBox.Show("Kubeah Chat - 1.4.0.x(001)" + "\r\n" + "Kubeah! The Open Source Project" + "\r\n" + "\r\n" + "You want to join the developer team?" + "\r\n" + "Contact : support@kubeah.com" + "\r\n" + "\r\n" + "www.kubeah.com");
+            MessageBox.Show("Kubeah Chat - V.1.4.1" + "\r\n" + "Kubeah! The Open Source Project" + "\r\n" + "\r\n" + "You want to join the developer team?" + "\r\n" + "Contact : support@kubeah.com" + "\r\n" + "\r\n" + "www.kubeah.com");
         }
 
         private void siteToolStripMenuItem_Click(object sender, EventArgs e)
         {
             try
             {
-                System.Diagnostics.Process.Start("https://kubeah.com");//Ouvre le lien dans le navigateur par défault
+                System.Diagnostics.Process.Start("https://sites.google.com/view/kubeahchat");//Ouvre le lien dans le navigateur par défault
             }
             catch { }
         }
